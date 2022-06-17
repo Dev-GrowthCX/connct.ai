@@ -635,6 +635,16 @@ html {
   margin-bottom: -0.5rem;
 }
 
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .-mr-2 {
   margin-right: -0.5rem;
 }
@@ -669,6 +679,14 @@ html {
 
 .mb-8 {
   margin-bottom: 2rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
 .flex {
@@ -853,6 +871,10 @@ html {
   border-radius: 1.5rem;
 }
 
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -883,6 +905,21 @@ html {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-slate-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
+.bg-slate-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
+}
+
+.bg-slate-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
 .p-2 {
@@ -978,6 +1015,21 @@ html {
   padding-bottom: 0.75rem;
 }
 
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pt-5 {
   padding-top: 1.25rem;
 }
@@ -1008,6 +1060,10 @@ html {
 
 .pt-16 {
   padding-top: 4rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .text-center {
@@ -1186,6 +1242,11 @@ html {
   background-color: rgb(4 69 157 / 0.95);
 }
 
+.hover\:bg-slate-50:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
+}
+
 .hover\:text-gray-500:hover {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
@@ -1281,5 +1342,17 @@ html {
 
   .xl\:w-1\/4 {
     width: 25%;
+  }
+
+  .xl\:w-3 {
+    width: 0.75rem;
+  }
+
+  .xl\:w-3\/12 {
+    width: 25%;
+  }
+
+  .xl\:w-2\/12 {
+    width: 16.666667%;
   }
 }
