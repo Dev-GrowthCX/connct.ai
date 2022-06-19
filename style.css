@@ -595,6 +595,14 @@ html {
   top: 0px;
 }
 
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
 .m-1 {
   margin: 0.25rem;
 }
@@ -1315,6 +1323,10 @@ html {
     margin-right: auto;
   }
 
+  .sm\:hidden {
+    display: none;
+  }
+
   .sm\:h-10 {
     height: 2.5rem;
   }
@@ -1334,6 +1346,14 @@ html {
 }
 
 @media (min-width: 768px) {
+  .md\:order-1 {
+    order: 1;
+  }
+
+  .md\:order-2 {
+    order: 2;
+  }
+
   .md\:mx-24 {
     margin-left: 6rem;
     margin-right: 6rem;
@@ -1367,6 +1387,10 @@ html {
 
   .md\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .md\:block {
+    display: block;
   }
 
   .md\:flex {
