@@ -213,9 +213,9 @@
     <!-- Navbar Ends -->
 
     <!-- section-one -->
-    <section class="pt-24 pb-10 max-w-7xl mx-auto px-4 sm:px-6">
+    <section class="pt-40 pb-10 max-w-7xl mx-auto px-4 sm:px-6">
       <div class="text-center md:text-left md:flex items-center">
-        <div class="md:w-8/12">
+        <div class="md:w-7/12 leading-10">
           <h1 class="md:w-10/12 text-4xl md:text-5xl tracking-normal font-bold">
             Network without the “work” with
             <span class="text-blue-900">Connct Digital Business Cards</span>!
@@ -242,9 +242,14 @@
             Early bird deal-<span class="font-black">one-time payment</span>
           </p>
         </div>
-        <div class="mt-6 md:mt-0">
-          <img src="./images/section-one-right.svg" alt="" />
-        </div>
+        <video
+          class="w-10/12 mb-8 md:mb-0 md:w-1/3 mx-auto"
+          autoplay
+          muted
+          loop
+        >
+          <source src="images/s4-gif-4.mp4" type="video/mp4" />
+        </video>
       </div>
     </section>
 
@@ -256,19 +261,20 @@
       <section class="py12 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 bg">
         <div class="text-center">
           <h1
-            class="text-3xl md:text-4xl leading-snug font-bold tracking-tight mb-12"
+            class="text-3xl md:text-[42px] leading-snug font-bold tracking-tight mb-12"
           >
             Effortless <span class="text-yellow-400">networking</span> in action
           </h1>
           <div class="flex justify-center">
             <iframe
-              src="https://drive.google.com/file/d/1zpHuCnCINn3tciVrfk3aY90YaflYBGcu/preview"
-              width="640"
-              height="480"
-              class="rounded-2xl h-auto w-auto"
-              allow="autoplay"
-            >
-            </iframe>
+              width="976"
+              height="446"
+              src="https://www.youtube.com/embed/f6mccCYBC7I"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </div>
           <a
             href="#"
@@ -284,7 +290,7 @@
     <section class="py-24 max-w-7xl mx-auto md:px-4">
       <div class="text-center">
         <h1
-          class="text-3xl md:text-4xl leading-snug font-bold tracking-tight mb-16"
+          class="text-3xl md:text-[42px] leading-snug font-bold tracking-tight mb-16"
         >
           How to network with
           <span class="text-blue-900">Connct</span>?
@@ -380,16 +386,16 @@
     <section class="py-24 max-w-7xl mx-auto md:px-4 sm:-6">
       <div>
         <h1
-          class="text-center text-3xl md:text-4xl leading-snug font-bold tracking-tight mb-8 md:w-6/12 mx-auto"
+          class="text-center text-3xl md:text-[42px] leading-snug font-bold tracking-tight mb-8 md:w-6/12 mx-auto"
         >
           A <span class="text-yellow-400">Digital Business Card</span>
           is Essential For you and here’s why?
         </h1>
       </div>
       <div class="mx-8 md:mx-24">
-        <div class="md:flex items-center justify-between mt-20 mb-10">
+        <div class="md:flex items-center justify-between mt-20 mb-10 md:mr-10">
           <video
-            class="w-10/12 mb-8 md:mb-0 md:w-1/4 mx-auto"
+            class="w-10/12 mb-8 md:mb-0 md:w-1/3 mx-auto"
             autoplay
             muted
             loop
@@ -397,7 +403,9 @@
             <source src="images/s4-gif-5.mp4" type="video/mp4" />
           </video>
           <div class="md:ml-10">
-            <h1 class="text-blue-800 text-3xl leading-snug font-semibold mb-6">
+            <h1
+              class="text-blue-800 text-3xl md:text-[32px] leading-snug font-semibold mb-6"
+            >
               It's an all-in-one solution!
             </h1>
             <ul class="s4-list" style="list-style: outside">
@@ -448,11 +456,11 @@
             muted
             loop
           >
-            <source src="images/s4-gif-5.mp4" type="video/mp4" />
+            <source src="images/s4-gif-3.mp4" type="video/mp4" />
           </video>
           <div class="order-2 md:order-1">
             <h1
-              class="text-blue-800 text-3xl leading-snug font-semibold mb-6 md:w-9/12"
+              class="text-blue-800 text-3xl md:text-[32px] leading-snug font-semibold mb-6 md:w-9/12"
             >
               Keep track of your connections in real time
             </h1>
@@ -480,40 +488,57 @@
             </ul>
           </div>
           <video
-            class="order-1 md:order-2 w-10/12 md:w-1/4 mx-auto mt-8 mb-8 md:mt-0 md:mb-0 hidden md:block"
+            class="order-1 md:order-2 w-10/12 md:w-1/3 mx-auto mt-8 mb-8 md:mt-0 md:mb-0 hidden md:block"
             autoplay
             muted
             loop
           >
-            <source src="images/s4-gif-5.mp4" type="video/mp4" />
+            <source src="images/s4-gif-3.mp4" type="video/mp4" />
           </video>
         </div>
-        <div class="md:flex items-center justify-between">
-          <video autoplay muted loop class="mx-auto mb-8 md:mb-0">
+        <div class="md:flex items-center justify-center md:h-[300px]">
+          <video
+            autoplay
+            muted
+            loop
+            class="mb-8 md:mb-0 w-10/12 md:w-1/3 mx-auto md:mx-3"
+            id="toggle_video"
+          >
             <source src="images/s4-gif.mp4" type="video/mp4" />
           </video>
+          <div
+            class="mb-8 md:mb-0 w-10/12 md:w-1/3 mx-auto md:mx-3 flex justify-center"
+            id="toggle_img"
+          >
+            <img src="./images/image 2.svg" alt="" />
+          </div>
+
           <div class="md:ml-8 text-center md:text-left">
-            <h1 class="text-blue-800 text-3xl leading-snug font-semibold mb-6">
+            <h1
+              class="text-blue-800 text-3xl md:text-[32px] leading-snug font-semibold mb-6"
+            >
               Effortless networking
             </h1>
             <p
               class="text-gray-500 font-semibold text-lg leading-loose md:w-11/12"
             >
               Share your details via
-              <span class="text-blue-900 font-bold">QR code</span><br />
-              Know that you’re also connected to supporting a great cause. You
+              <span class="text-blue-900 font-bold text-[24px]" id="toggle_link"
+                >QR code</span
+              ><br />
+              <!-- Know that you’re also connected to supporting a great cause. You
               save around 7M+ trees by joining Connct and avoiding paper
-              business cards.
+              business cards. -->
             </p>
           </div>
         </div>
         <div class="md:flex items-center justify-between mt-16">
-          <video class="w-10/12 md:w-1/4 mx-auto md:hidden" autoplay muted loop>
-            <source src="images/s4-gif-4.mp4" type="video/mp4" />
-          </video>
-          <div class=" text-center md:text-left">
+          <div class="w-10/12 md:w-2/4 flex justify-center mx-auto md:hidden">
+            <img src="./images/g10.svg" alt="" />
+          </div>
+          <div class="text-center md:text-left">
             <h1
-              class="text-blue-800 text-3xl leading-snug font-semibold mt-8 md:mt-0 mb-6"
+              class="text-blue-800 text-3xl md:text-[32px] leading-snug font-semibold mt-8 md:mt-0 mb-6"
             >
               You’re part of a great cause
             </h1>
@@ -525,14 +550,17 @@
               business cards.
             </p>
           </div>
-          <video
+          <!-- <video
             class="w-10/12 md:w-1/4 mx-auto hidden md:block"
             autoplay
             muted
             loop
           >
             <source src="images/s4-gif-4.mp4" type="video/mp4" />
-          </video>
+          </video> -->
+          <div class="w-10/12 md:w-2/4 mx-auto hidden md:block">
+            <img src="./images/g10.svg" alt="" />
+          </div>
         </div>
       </div>
     </section>
@@ -542,7 +570,7 @@
       <section class="py-24 max-w-7xl mx-auto px-4 sm:-6 text-center">
         <div>
           <h1
-            class="text-white text-4xl font-bold text-center md:w-6/12 mx-auto"
+            class="text-white text-3xl md:text-[42px] font-bold text-center md:w-7/12 mx-auto"
           >
             Enter the new age of networking @
             <span class="line-through">₹2000</span>
@@ -644,5 +672,6 @@
     </section>
 
     <script src="./js/navbar.js"></script>
+    <script src="./js/home.js"></script>
   </body>
 </html>
