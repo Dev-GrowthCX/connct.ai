@@ -1158,6 +1158,14 @@ html {
   line-height: 2.5rem;
 }
 
+.leading-\[130\%\] {
+  line-height: 130%;
+}
+
+.leading-\[130px\] {
+  line-height: 130px;
+}
+
 .tracking-normal {
   letter-spacing: 0em;
 }
