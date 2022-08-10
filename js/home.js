@@ -7,7 +7,7 @@ async function cycle() {
     text_container.innerText = text[0];
     img_container.classList.add('hidden')
     video_container.classList.remove('hidden')
-    await new Promise(r => setTimeout(r, 10801));
+    await new Promise(r => setTimeout(r, 5400));
     text_container.innerText = text[1];
     video_container.classList.add('hidden')
     img_container.classList.remove('hidden')
